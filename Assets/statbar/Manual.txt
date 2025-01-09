@@ -1,0 +1,38 @@
+************************Setup guide**************************
+-To add this object to your screen you must attach the "statsbar"
+prefab as a child to a Canvas object. See "stat bar dev scene"
+for an example of displaying the stat bar.
+
+-To control the power, shield, and health values displayed
+on the stats bar set the corresponding float values on the 
+statsbar.cs script attached to the statsbar object. Values
+can be set to anything between 0(empty) to 1(full).
+
+-For example:
+C#:
+
+using UnityEngine;
+using System.Collections;
+
+public class Control : MonoBehaviour {
+
+	public statsbar stats;
+
+	void Update () {
+		stats.power = Random.value;
+		stats.shield = Random.value;
+		stats.health = Random.value;
+	}
+}
+
+Js:
+
+#pragma strict
+
+public var stats : statsbar;
+
+function Update () {
+		stats.power = Random.value;
+		stats.shield = Random.value;
+		stats.health = Random.value;
+}

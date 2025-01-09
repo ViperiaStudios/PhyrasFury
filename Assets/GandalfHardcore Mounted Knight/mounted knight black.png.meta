@@ -1,0 +1,1520 @@
+fileFormatVersion: 2
+guid: 4bf2c1cc62061ac41b20ac71e35c31dd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8745645148663545270
+    second: mounted knight black_0
+  - first:
+      213: 1538750525546157168
+    second: mounted knight black_1
+  - first:
+      213: -7558206222331634772
+    second: mounted knight black_2
+  - first:
+      213: 9072629704940556465
+    second: mounted knight black_3
+  - first:
+      213: 8847210012080673335
+    second: mounted knight black_4
+  - first:
+      213: -4663582900757871765
+    second: mounted knight black_5
+  - first:
+      213: -5787539344962998493
+    second: mounted knight black_6
+  - first:
+      213: -3658687814703439476
+    second: mounted knight black_7
+  - first:
+      213: 4024913819587819637
+    second: mounted knight black_8
+  - first:
+      213: 6322305098056310298
+    second: mounted knight black_9
+  - first:
+      213: -7909750181445959135
+    second: mounted knight black_10
+  - first:
+      213: -2723050982409587789
+    second: mounted knight black_11
+  - first:
+      213: 7350941348718548096
+    second: mounted knight black_12
+  - first:
+      213: -3754152342229256623
+    second: mounted knight black_13
+  - first:
+      213: 8914213791547777819
+    second: mounted knight black_14
+  - first:
+      213: 3674005696347472841
+    second: mounted knight black_15
+  - first:
+      213: -7681237647391706761
+    second: mounted knight black_16
+  - first:
+      213: 2764041630706585570
+    second: mounted knight black_17
+  - first:
+      213: 6328520005912545252
+    second: mounted knight black_18
+  - first:
+      213: -5041596190620129489
+    second: mounted knight black_19
+  - first:
+      213: -4609049264433474843
+    second: mounted knight black_20
+  - first:
+      213: 727961502231938165
+    second: mounted knight black_21
+  - first:
+      213: -4713084148510176011
+    second: mounted knight black_22
+  - first:
+      213: 8047165559282672652
+    second: mounted knight black_23
+  - first:
+      213: 2535534530328282243
+    second: mounted knight black_24
+  - first:
+      213: 69051491141278949
+    second: mounted knight black_25
+  - first:
+      213: 4952223982773310557
+    second: mounted knight black_26
+  - first:
+      213: 7285363562479324444
+    second: mounted knight black_27
+  - first:
+      213: 4181481469832991603
+    second: mounted knight black_28
+  - first:
+      213: -8531142314861270710
+    second: mounted knight black_29
+  - first:
+      213: -9081490919339970239
+    second: mounted knight black_30
+  - first:
+      213: -2649131738003904456
+    second: mounted knight black_31
+  - first:
+      213: -7818209144732267361
+    second: mounted knight black_32
+  - first:
+      213: 4060258801745450776
+    second: mounted knight black_33
+  - first:
+      213: 325361633308503681
+    second: mounted knight black_34
+  - first:
+      213: -1821665228421244867
+    second: mounted knight black_35
+  - first:
+      213: -8621301139855172144
+    second: mounted knight black_36
+  - first:
+      213: 1293255818226578442
+    second: mounted knight black_37
+  - first:
+      213: 2108066937198018031
+    second: mounted knight black_38
+  - first:
+      213: -3831390746425249147
+    second: mounted knight black_39
+  - first:
+      213: 8127035168164655148
+    second: mounted knight black_40
+  - first:
+      213: -1900419632820438702
+    second: mounted knight black_41
+  - first:
+      213: -105347455594890701
+    second: mounted knight black_42
+  - first:
+      213: -5291575733590799977
+    second: mounted knight black_43
+  - first:
+      213: -1202958183484366623
+    second: mounted knight black_44
+  - first:
+      213: 4616213326033793933
+    second: mounted knight black_45
+  - first:
+      213: -1309415088831140108
+    second: mounted knight black_46
+  - first:
+      213: 3920036540078814200
+    second: mounted knight black_47
+  - first:
+      213: -2307990509606176411
+    second: mounted knight black_48
+  - first:
+      213: 4525995329659032033
+    second: mounted knight black_49
+  - first:
+      213: 3993197568646504143
+    second: mounted knight black_50
+  - first:
+      213: 840590506727538469
+    second: mounted knight black_51
+  - first:
+      213: 1551014764861770560
+    second: mounted knight black_52
+  - first:
+      213: -9169492162962248904
+    second: mounted knight black_53
+  - first:
+      213: -5531313016721386725
+    second: mounted knight black_54
+  - first:
+      213: -2510970398796605569
+    second: mounted knight black_55
+  - first:
+      213: 5458746136513298132
+    second: mounted knight black_56
+  - first:
+      213: 7478352524715591887
+    second: mounted knight black_57
+  - first:
+      213: 1984128962431849144
+    second: mounted knight black_58
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mounted knight black_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 555
+        width: 78
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd75b12de5ce5970800000000000000
+      internalID: 8745645148663545270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_1
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 555
+        width: 78
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074df19437dba5510800000000000000
+      internalID: 1538750525546157168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_2
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 555
+        width: 78
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab96c26c7bdb1790800000000000000
+      internalID: -7558206222331634772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_3
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 555
+        width: 79
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b093a5d5a478ed70800000000000000
+      internalID: 9072629704940556465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_4
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 555
+        width: 78
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7321957a1aa97ca70800000000000000
+      internalID: 8847210012080673335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_5
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 555
+        width: 78
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63cdbb7f00a74fb0800000000000000
+      internalID: -4663582900757871765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_6
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 555
+        width: 78
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f22e321a78eafa0800000000000000
+      internalID: -5787539344962998493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_7
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 555
+        width: 78
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c812d8c21dab93dc0800000000000000
+      internalID: -3658687814703439476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_8
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 555
+        width: 82
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578b7144bcd5bd730800000000000000
+      internalID: 4024913819587819637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_9
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 555
+        width: 82
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e994b5df65db750800000000000000
+      internalID: 6322305098056310298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_10
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 444
+        width: 82
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12205dc1e1cea3290800000000000000
+      internalID: -7909750181445959135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_11
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 444
+        width: 83
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3b2301f87c53ad0800000000000000
+      internalID: -2723050982409587789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_12
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 444
+        width: 82
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084991fa53ac30660800000000000000
+      internalID: 7350941348718548096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_13
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 444
+        width: 82
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15679b8c55296ebc0800000000000000
+      internalID: -3754152342229256623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_14
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 444
+        width: 82
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13e711c636a5bb70800000000000000
+      internalID: 8914213791547777819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_15
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 444
+        width: 82
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c38d8117b0bcf230800000000000000
+      internalID: 3674005696347472841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_16
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 444
+        width: 78
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7713cdf7e03c66590800000000000000
+      internalID: -7681237647391706761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_17
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 444
+        width: 78
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef48a6f739db5620800000000000000
+      internalID: 2764041630706585570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_18
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 444
+        width: 78
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7ce5a5a6b63d750800000000000000
+      internalID: 6328520005912545252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_19
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 444
+        width: 79
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27ef15e9f6a80ab0800000000000000
+      internalID: -5041596190620129489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_20
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 333
+        width: 78
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2da212d1e5900c0800000000000000
+      internalID: -4609049264433474843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_21
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 333
+        width: 78
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574c1be112d3a1a00800000000000000
+      internalID: 727961502231938165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_22
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 333
+        width: 78
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcc68b10f2c79eb0800000000000000
+      internalID: -4713084148510176011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_23
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 333
+        width: 96
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c042dc1c0764daf60800000000000000
+      internalID: 8047165559282672652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_24
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 333
+        width: 92
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38444f3b837003320800000000000000
+      internalID: 2535534530328282243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_25
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 333
+        width: 89
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ecdfa027f155f000800000000000000
+      internalID: 69051491141278949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_26
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 335
+        width: 89
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d549f5d6975d9b440800000000000000
+      internalID: 4952223982773310557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_27
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 333
+        width: 93
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d87218f8fca1560800000000000000
+      internalID: 7285363562479324444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_28
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 333
+        width: 95
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373164c0e3b970a30800000000000000
+      internalID: 4181481469832991603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_29
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 333
+        width: 99
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49e36ab34b4b9980800000000000000
+      internalID: -8531142314861270710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_30
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 222
+        width: 96
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1413ec9ef1018f180800000000000000
+      internalID: -9081490919339970239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_31
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 222
+        width: 95
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838601158b46c3bd0800000000000000
+      internalID: -2649131738003904456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_32
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 224
+        width: 95
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9cc58c9434208390800000000000000
+      internalID: -7818209144732267361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_33
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 222
+        width: 98
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817d0363edfe85830800000000000000
+      internalID: 4060258801745450776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_34
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 222
+        width: 98
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ee4e08eaae38400800000000000000
+      internalID: 325361633308503681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_35
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 222
+        width: 108
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d385548502528b6e0800000000000000
+      internalID: -1821665228421244867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_36
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 222
+        width: 105
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd13497a4cfa5880800000000000000
+      internalID: -8621301139855172144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_37
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 222
+        width: 104
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a043a11905192f110800000000000000
+      internalID: 1293255818226578442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_38
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 257
+        width: 19
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fedfe6ad5bb514d10800000000000000
+      internalID: 2108066937198018031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_39
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 224
+        width: 94
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582ba9b6a6a24dac0800000000000000
+      internalID: -3831390746425249147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_40
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 222
+        width: 98
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20bf833d6709c070800000000000000
+      internalID: 8127035168164655148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_41
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 111
+        width: 98
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2593f8da96a50a5e0800000000000000
+      internalID: -1900419632820438702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_42
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 111
+        width: 95
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a764b1c0bb98ef0800000000000000
+      internalID: -105347455594890701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_43
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 111
+        width: 89
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7994e3108eb8096b0800000000000000
+      internalID: -5291575733590799977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_44
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 111
+        width: 86
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0e3c9d7eb3e4fe0800000000000000
+      internalID: -1202958183484366623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_45
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 111
+        width: 86
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d833ba1ff85101040800000000000000
+      internalID: 4616213326033793933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_46
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 120
+        width: 82
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4feeeae0ae504dde0800000000000000
+      internalID: -1309415088831140108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_47
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 124
+        width: 85
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3f2f5c674c66630800000000000000
+      internalID: 3920036540078814200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_48
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 112
+        width: 94
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56973f91cde58ffd0800000000000000
+      internalID: -2307990509606176411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_49
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 111
+        width: 93
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e15767c5c09fce30800000000000000
+      internalID: 4525995329659032033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_50
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 111
+        width: 95
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fced0252800ba6730800000000000000
+      internalID: 3993197568646504143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_51
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 0
+        width: 78
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f7f0bbc906aab00800000000000000
+      internalID: 840590506727538469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_52
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 0
+        width: 85
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04bc8f406bf468510800000000000000
+      internalID: 1551014764861770560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_53
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 0
+        width: 73
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b28e7b57b6fb080800000000000000
+      internalID: -9169492162962248904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_54
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 0
+        width: 74
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13d3d01e14dc33b0800000000000000
+      internalID: -5531313016721386725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_55
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 0
+        width: 77
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77153ad9bd372dd0800000000000000
+      internalID: -2510970398796605569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_56
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 0
+        width: 104
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de39e180bc51cb40800000000000000
+      internalID: 5458746136513298132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_57
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 0
+        width: 104
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc881dccff178c760800000000000000
+      internalID: 7478352524715591887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mounted knight black_58
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 0
+        width: 105
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2905a67ca098b10800000000000000
+      internalID: 1984128962431849144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
