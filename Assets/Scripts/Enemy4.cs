@@ -36,7 +36,7 @@ public class Enemy4 : MonoBehaviour
         if (transform.position.x <= -11.90f)
        {
             float randomY = Random.Range(5.5f, 6.5f);
-          transform.position = new Vector3(17, randomY, 0);
+          transform.position = new Vector3(20, randomY, 0);
         }
 
 
@@ -44,9 +44,9 @@ public class Enemy4 : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if ((other.tag == "Player" || other.tag == "Laser"))
+        if (other.tag == "Player" || other.tag == "Laser")
         {
-            _health--;
+            _health--; // Reduce health by 1 when hit by Player or Laser
 
             // Flash red effect for the child sprite
             StartCoroutine(FlashRed(_childSpriteRenderer));
@@ -63,7 +63,6 @@ public class Enemy4 : MonoBehaviour
                 if (player != null)
                 {
                     player.TakeDamage(1);
-                    
                 }
             }
 
@@ -73,8 +72,23 @@ public class Enemy4 : MonoBehaviour
             }
         }
 
-        Debug.Log("Hit" + other.transform.name);
+        // **New Condition: If this collides with "Expl1", reduce _health by 2**
+        if (other.tag == "Expl1")
+        {
+            _health -= 2; // Reduce health by 2
+
+            // Flash red effect for the child sprite
+            StartCoroutine(FlashRed(_childSpriteRenderer));
+
+            if (_health <= 0)
+            {
+                Destroy(gameObject);
+            }
+        }
+
+        Debug.Log("Hit " + other.transform.name);
     }
+
 
     IEnumerator FlashRed(SpriteRenderer spriteRenderer)
     {

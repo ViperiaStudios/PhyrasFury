@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: shildRipple_impact_04
+  m_Shader: {fileID: 4800000, guid: b1e2370450993374c8dda64825b7a076, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: e0a71742ae1e0544c8f6c63b859ab285, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _InvFade: 1
+    - _Step: 0.29
+    - _Time_noise: 2
+    - _dampl: 5
+    - _impactsize: 1
+    m_Colors:
+    - _Color0: {r: 0, g: 0.93303853, b: 1.5496556, a: 1}
+    - _SphereCenter: {r: 0, g: 0, b: -1.51, a: 0}
+    - _Step2: {r: 0.2, g: 0.7, b: 0, a: 0}
+    - _Tilling: {r: 2, g: 2, b: 0, a: 0}
+    - _TintColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}

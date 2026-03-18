@@ -10,6 +10,10 @@ TagManager:
   - eLaser
   - Knight
   - PowerUp
+  - secondaryS1
+  - Expl1
+  - 2ndaryShot1
+  - evoShot1
   layers:
   - Default
   - TransparentFX

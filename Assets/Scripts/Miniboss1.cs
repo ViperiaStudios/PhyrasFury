@@ -110,6 +110,17 @@ public class Miniboss1 : MonoBehaviour
             Destroy(other.gameObject);
         }
 
+        if (other.tag == "Expl1")
+        {
+            TakeDamage(2);
+            Debug.Log("hit by 2nd shot");
+
+            if (explosionPrefab != null)
+            {
+                Instantiate(explosionPrefab, other.transform.position, Quaternion.identity);
+            }
+        }
+
         if (other.tag == "Player")
         {
             Player player = other.transform.GetComponent<Player>();

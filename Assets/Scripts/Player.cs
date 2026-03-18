@@ -25,7 +25,7 @@ public class Player : MonoBehaviour
     private Image fillImage;  // Reference to the Fill Area's Image component
 
     [SerializeField]
-    private float overheatDuration = 8f;  // How long the player can shoot before overheating
+    private float overheatDuration = 12f;  // How long the player can shoot before overheating
     [SerializeField]
     private float cooldownDuration = 3f;  // How long the player must wait after overheating
 
@@ -39,6 +39,7 @@ public class Player : MonoBehaviour
     [SerializeField]
     private int _lives = 3;
     private int _health = 10;
+   
     private NewSpawnManager _spawnManager;
 
     [SerializeField]
@@ -63,18 +64,18 @@ public class Player : MonoBehaviour
     private EvolutionManager evolutionmanager;
 
     [SerializeField]
-    private GameObject prefabA;  // Prefab for short hold
-    [SerializeField]
-    private GameObject prefabB;  // Prefab for medium hold
-    [SerializeField]
-    private GameObject prefabC;  // Prefab for long hold
+    private GameObject prefabA;  
+    //[SerializeField]
+    //private GameObject prefabB;  // Prefab for medium hold
+    //[SerializeField]
+    //private GameObject prefabC;  // Prefab for long hold
 
     [SerializeField]
     private float secondaryFireRate = 2.0f;  // Cooldown between secondary shots
     private float nextSecondaryFireTime = 0f;  // Track the next time the player can fire the secondary shot
 
-    private float holdTime = 0f;  // Track how long the R key is held down
-    private bool isHoldingRKey = false;  // Flag to track if the player is holding the R key
+   // private float holdTime = 0f;  // Track how long the R key is held down
+    //private bool isHoldingRKey = false;  // Flag to track if the player is holding the R key
 
 
     private Coroutine _tripleShotCoroutine;
@@ -103,7 +104,7 @@ public class Player : MonoBehaviour
 
         if (_spawnManager == null)
         {
-            Debug.LogError("The Spawn Manager is NULL.");
+            Debug.LogError("The Spawn Manager is NOT assigned in the Inspector!");
         }
 
 
@@ -128,7 +129,7 @@ public class Player : MonoBehaviour
         HandleSecondaryShot();
 
 
-        if (!isOverheated && Input.GetKey(KeyCode.Mouse0) && Time.time > _canFire)
+        if (Input.GetKey(KeyCode.Mouse0) && !isOverheated && Time.time > _canFire)
         {
             FireProjectile();
         }
@@ -264,72 +265,98 @@ public class Player : MonoBehaviour
     {
         _canFire = Time.time + _fireRate;
 
+        StartCoroutine(FireProjectileWithDelay());
+
+
+    }
+
+    private IEnumerator FireProjectileWithDelay()
+    {
+        // Wait for 0.1 seconds
+        yield return new WaitForSeconds(0.1f);
+
+        // Check if triple shot is enabled and instantiate accordingly
         if (_tripleShotON == true)
         {
-            Instantiate(_tripleshotPrefab, transform.position , Quaternion.identity);
+            Instantiate(_tripleshotPrefab, transform.position, Quaternion.identity);
         }
-
         else
         {
             Instantiate(_laserPrefab, transform.position + new Vector3(0.8f, -0.1f, 0), Quaternion.identity);
         }
-
-           
     }
 
     void HandleSecondaryShot()
     {
-        // Start holding down the R key
-        if (Input.GetKeyDown(KeyCode.Mouse1))
+        // Check if the E key is pressed and if the cooldown allows firing
+        if (Input.GetKeyDown(KeyCode.E) && Time.time >= nextSecondaryFireTime)
         {
-            isHoldingRKey = true;
-            holdTime = 0f;  // Reset hold time when the R key is pressed
-        }
-
-        // While the player is holding down the R key
-        if (Input.GetKey(KeyCode.Mouse1))
-        {
-            holdTime += Time.deltaTime;  // Increment hold time
-        }
-
-        // When the player releases the R key or after holding it for 3+ seconds
-        if (Input.GetKeyUp(KeyCode.Mouse1) || holdTime >= 3f)
-        {
-            // Check if the player is allowed to fire (based on cooldown)
-            if (Time.time >= nextSecondaryFireTime)
-            {
-                FireSecondaryShot();  // Fire the appropriate prefab based on hold time
-                nextSecondaryFireTime = Time.time + secondaryFireRate;  // Set the next allowed fire time
-            }
-
-            isHoldingRKey = false;  // Reset the holding flag
-            holdTime = 0f;  // Reset the hold time after firing
+            FireSecondaryShot(); // Fire the secondary shot
+            nextSecondaryFireTime = Time.time + secondaryFireRate; // Set cooldown
         }
     }
 
     void FireSecondaryShot()
     {
-        GameObject prefabToFire;
-
-        // Determine which prefab to fire based on the hold time
-        if (holdTime < 1f)
-        {
-            prefabToFire = prefabA;  // Fire Prefab A if held for less than 1 second
-        }
-        else if (holdTime < 2f)
-        {
-            prefabToFire = prefabB;  // Fire Prefab B if held for at least 1 second but less than 2 seconds
-        }
-        else
-        {
-            prefabToFire = prefabC;  // Fire Prefab C if held for 2 seconds or more (including if held for 3+ seconds)
-        }
-
-        // Instantiate the selected prefab at the same position as the triple shot
-        Instantiate(prefabToFire, transform.position, Quaternion.identity);
-
-        Debug.Log("Fired " + prefabToFire.name + " based on hold time of " + holdTime + " seconds");
+        StartCoroutine(FireSecondaryProjectiles());
     }
+
+    private IEnumerator FireSecondaryProjectiles()
+    {
+        int projectileCount = 4; // Number of projectiles to fire
+        float explosionDelay = 0.2f; // Time between each explosion
+        float yRange = 1.5f; // Limit for random Y-axis offset
+        float forwardOffset = 1.0f; // How far in front of the player the fireballs spawn
+        float projectileSpeed = 10f; // Speed at which fireballs move forward
+
+        for (int i = 0; i < projectileCount; i++)
+        {
+            // Calculate random Y offset for spread effect
+            float randomYOffset = Random.Range(-yRange, yRange);
+
+            // Set spawn position in front of the player
+            Vector3 spawnPosition = transform.position + new Vector3(forwardOffset, randomYOffset, 0);
+
+            // Instantiate the projectile
+            GameObject projectile = Instantiate(prefabA, spawnPosition, Quaternion.identity);
+
+            // Apply forward force to push the projectile outward
+            Rigidbody rb = projectile.GetComponent<Rigidbody>();
+            if (rb != null)
+            {
+                rb.velocity = Vector3.right * projectileSpeed; // Push fireballs forward
+            }
+
+            Debug.Log("Fired projectile at position: " + spawnPosition);
+
+            // Wait before firing the next projectile
+            yield return new WaitForSeconds(explosionDelay);
+        }
+    }
+
+    //void FireSecondaryShot()
+    //{
+    //    GameObject prefabToFire;
+
+    //    // Determine which prefab to fire based on the hold time
+    //    if (holdTime < 1f)
+    //    {
+    //        prefabToFire = prefabA;  // Fire Prefab A if held for less than 1 second
+    //    }
+    //    else if (holdTime < 2f)
+    //    {
+    //        prefabToFire = prefabB;  // Fire Prefab B if held for at least 1 second but less than 2 seconds
+    //    }
+    //    else
+    //    {
+    //        prefabToFire = prefabC;  // Fire Prefab C if held for 2 seconds or more (including if held for 3+ seconds)
+    //    }
+
+    //    // Instantiate the selected prefab at the same position as the triple shot
+    //    Instantiate(prefabToFire, transform.position, Quaternion.identity);
+
+    //    Debug.Log("Fired " + prefabToFire.name + " based on hold time of " + holdTime + " seconds");
+    //}
 
     public void LoseLife()
     {
@@ -398,7 +425,7 @@ public class Player : MonoBehaviour
         // Increment the statbar by 0.5 units (or any desired value)
         if (statsBar != null)
         {
-            statsBar.IncreaseHealth(0.3f);  // Increment the statbar by 0.5
+            statsBar.IncreaseHealth(0.3f);  
         }
     }
 

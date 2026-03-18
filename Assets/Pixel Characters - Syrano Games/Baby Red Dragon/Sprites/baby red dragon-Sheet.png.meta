@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 6de80b04f41250c48a7a1b7958c34820
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6704695507006157667
+    second: baby red dragon-Sheet_0
+  - first:
+      213: -5550501341062259335
+    second: baby red dragon-Sheet_1
+  - first:
+      213: -9193609925642652076
+    second: baby red dragon-Sheet_2
+  - first:
+      213: -6957476246486911730
+    second: baby red dragon-Sheet_3
+  - first:
+      213: 807353672275101511
+    second: baby red dragon-Sheet_4
+  - first:
+      213: 6468343608963114920
+    second: baby red dragon-Sheet_5
+  - first:
+      213: -2733149332052422920
+    second: baby red dragon-Sheet_6
+  - first:
+      213: 1476444771375834007
+    second: baby red dragon-Sheet_7
+  - first:
+      213: 3479320484072217595
+    second: baby red dragon-Sheet_8
+  - first:
+      213: -6291735754221081305
+    second: baby red dragon-Sheet_9
+  - first:
+      213: -1927999532406543424
+    second: baby red dragon-Sheet_10
+  - first:
+      213: 473821671198427848
+    second: baby red dragon-Sheet_11
+  - first:
+      213: 6590296028644560147
+    second: baby red dragon-Sheet_12
+  - first:
+      213: -4012717225227316131
+    second: baby red dragon-Sheet_13
+  - first:
+      213: 2226969427712821899
+    second: baby red dragon-Sheet_14
+  - first:
+      213: -7551972362047200962
+    second: baby red dragon-Sheet_15
+  - first:
+      213: 2121576308533951671
+    second: baby red dragon-Sheet_16
+  - first:
+      213: -3225507832229466661
+    second: baby red dragon-Sheet_17
+  - first:
+      213: 456070054823765546
+    second: baby red dragon-Sheet_18
+  - first:
+      213: -98132160063459675
+    second: baby red dragon-Sheet_19
+  - first:
+      213: -5899470316639067851
+    second: baby red dragon-Sheet_20
+  - first:
+      213: -8510654107501938088
+    second: baby red dragon-Sheet_21
+  - first:
+      213: -4755743141520948118
+    second: baby red dragon-Sheet_22
+  - first:
+      213: 1536893122998907199
+    second: baby red dragon-Sheet_23
+  - first:
+      213: 7788938080102022845
+    second: baby red dragon-Sheet_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: baby red dragon-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 307
+        width: 164
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9c8db995f224f2a0800000000000000
+      internalID: -6704695507006157667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baby red dragon-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 325
+        width: 167
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97d97a82078a8f2b0800000000000000
+      internalID: -5550501341062259335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baby red dragon-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 322
+        width: 170
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45670928b7cb96080800000000000000
+      internalID: -9193609925642652076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baby red dragon-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 319
+        width: 169
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e05fde25734127f90800000000000000
+      internalID: -6957476246486911730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baby red dragon-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 316
+        width: 169
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 747801c23eb443b00800000000000000
+      internalID: 807353672275101511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baby red dragon-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 315
+        width: 169
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a72a69dd3c24c950800000000000000
+      internalID: 6468343608963114920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baby red dragon-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 317
+        width: 168
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fe4be0d927e11ad0800000000000000
+      internalID: -2733149332052422920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baby red dragon-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 321
+        width: 170
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 793e65072b26d7410800000000000000
+      internalID: 1476444771375834007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baby red dragon-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 312
+        width: 166
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb5dd8cb87094030800000000000000
+      internalID: 3479320484072217595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baby red dragon-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 128
+        width: 167
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72d2705aaa34fa8a0800000000000000
+      internalID: -6291735754221081305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baby red dragon-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 120
+        width: 160
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cbe9c7e3ae5e35e0800000000000000
+      internalID: -1927999532406543424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baby red dragon-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 117
+        width: 144
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca0aaeac4a539600800000000000000
+      internalID: 473821671198427848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baby red dragon-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 117
+        width: 132
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31dc608325f657b50800000000000000
+      internalID: 6590296028644560147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baby red dragon-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 121
+        width: 127
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d541c36a1f6ff48c0800000000000000
+      internalID: -4012717225227316131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baby red dragon-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 119
+        width: 116
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8a4a7045e8c7ee10800000000000000
+      internalID: 2226969427712821899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baby red dragon-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 117
+        width: 144
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e31eb961621023790800000000000000
+      internalID: -7551972362047200962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baby red dragon-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 129
+        width: 178
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bcfc0a796a517d10800000000000000
+      internalID: 2121576308533951671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baby red dragon-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 128
+        width: 174
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdde8bf47b1bc33d0800000000000000
+      internalID: -3225507832229466661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baby red dragon-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 128
+        width: 175
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a26a67a6c49445600800000000000000
+      internalID: 456070054823765546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baby red dragon-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 127
+        width: 170
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ae2062025d53aef0800000000000000
+      internalID: -98132160063459675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baby red dragon-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 125
+        width: 170
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53164c5f00fd02ea0800000000000000
+      internalID: -5899470316639067851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baby red dragon-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 128
+        width: 173
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85ab02c3e2514e980800000000000000
+      internalID: -8510654107501938088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baby red dragon-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 113
+        width: 178
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a64c4ae4fc4300eb0800000000000000
+      internalID: -4755743141520948118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baby red dragon-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2713
+        y: 129
+        width: 174
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31371e0724245510800000000000000
+      internalID: 1536893122998907199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baby red dragon-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 33
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe7ef19aedd71c60800000000000000
+      internalID: 7788938080102022845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      baby red dragon-Sheet_0: -6704695507006157667
+      baby red dragon-Sheet_1: -5550501341062259335
+      baby red dragon-Sheet_10: -1927999532406543424
+      baby red dragon-Sheet_11: 473821671198427848
+      baby red dragon-Sheet_12: 6590296028644560147
+      baby red dragon-Sheet_13: -4012717225227316131
+      baby red dragon-Sheet_14: 2226969427712821899
+      baby red dragon-Sheet_15: -7551972362047200962
+      baby red dragon-Sheet_16: 2121576308533951671
+      baby red dragon-Sheet_17: -3225507832229466661
+      baby red dragon-Sheet_18: 456070054823765546
+      baby red dragon-Sheet_19: -98132160063459675
+      baby red dragon-Sheet_2: -9193609925642652076
+      baby red dragon-Sheet_20: -5899470316639067851
+      baby red dragon-Sheet_21: -8510654107501938088
+      baby red dragon-Sheet_22: -4755743141520948118
+      baby red dragon-Sheet_23: 1536893122998907199
+      baby red dragon-Sheet_24: 7788938080102022845
+      baby red dragon-Sheet_3: -6957476246486911730
+      baby red dragon-Sheet_4: 807353672275101511
+      baby red dragon-Sheet_5: 6468343608963114920
+      baby red dragon-Sheet_6: -2733149332052422920
+      baby red dragon-Sheet_7: 1476444771375834007
+      baby red dragon-Sheet_8: 3479320484072217595
+      baby red dragon-Sheet_9: -6291735754221081305
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

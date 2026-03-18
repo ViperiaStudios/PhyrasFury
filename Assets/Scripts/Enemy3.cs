@@ -55,7 +55,7 @@ public class Enemy3 : MonoBehaviour
     {
         if ((other.tag == "Player" || other.tag == "Laser") && canDamagePlayer)
         {
-            health--;
+            health--; // Reduce health by 1 when hit by Player or Laser
 
             // Flash red effect for the child sprite
             StartCoroutine(FlashRed(childSpriteRenderer));
@@ -84,8 +84,38 @@ public class Enemy3 : MonoBehaviour
             }
         }
 
-        Debug.Log("Hit" + other.transform.name);
+        // **New Condition: If this collides with "Expl1", reduce health by 2**
+        if (other.tag == "Expl1")
+        {
+            health -= 2; // Reduce health by 2
+
+            // Flash red effect for the child sprite
+            StartCoroutine(FlashRed(childSpriteRenderer));
+
+            if (health <= 0)
+            {
+                evolutionManager.EnemyKilled(3);
+                Destroy(gameObject);
+            }
+        }
+
+        if (other.tag == "evoShot1")
+        {
+            health -= 3; // Reduce health by 2
+
+            // Flash red effect for the child sprite
+            StartCoroutine(FlashRed(childSpriteRenderer));
+
+            if (health <= 0)
+            {
+                evolutionManager.EnemyKilled(1);
+                Destroy(gameObject);
+            }
+        }
+
+        Debug.Log("Hit " + other.transform.name);
     }
+
 
     IEnumerator FlashRed(SpriteRenderer spriteRenderer)
     {
@@ -111,7 +141,7 @@ public class Enemy3 : MonoBehaviour
         if (transform.position.x <= -11.90f)
         {
             float randomY = Random.Range(3.50f, 6f);
-            transform.position = new Vector3(12, randomY, 0);
+            transform.position = new Vector3(21, randomY, 0);
         }
     }
 

@@ -9,7 +9,7 @@ public class Laser : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine(DestroyAfterDelay(2.0f));
+        StartCoroutine(DestroyAfterDelay(1.7f));
     }
 
     IEnumerator DestroyAfterDelay(float delay)

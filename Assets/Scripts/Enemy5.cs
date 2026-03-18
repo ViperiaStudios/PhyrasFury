@@ -51,7 +51,7 @@ public class Enemy5 : MonoBehaviour
         if (transform.position.x <= -5.6f)
         {
             float randomY = Random.Range(7f, 11.08f);
-            transform.position = new Vector3(19, randomY, 0);
+            transform.position = new Vector3(20, randomY, 0);
         }
 
 
@@ -65,13 +65,13 @@ public class Enemy5 : MonoBehaviour
         Instantiate(_debufPrefab, newPosition, Quaternion.identity);
     }
 
-    
+
 
     private void OnTriggerEnter(Collider other)
     {
         if ((other.tag == "Player" || other.tag == "Laser") && _canDamagePlayer)
         {
-            _eHealth--;
+            _eHealth--; // Reduce health by 1 when hit by Player or Laser
 
             // Flash red effect for the child sprite
             StartCoroutine(FlashRed(_childSpriteRenderer));
@@ -99,8 +99,24 @@ public class Enemy5 : MonoBehaviour
             }
         }
 
-        Debug.Log("Hit" + other.transform.name);
+        // **New Condition: If this collides with "Expl1", reduce _eHealth by 2**
+        if (other.tag == "Expl1")
+        {
+            _eHealth -= 2; // Reduce health by 2
+
+            // Flash red effect for the child sprite
+            StartCoroutine(FlashRed(_childSpriteRenderer));
+
+            if (_eHealth <= 0)
+            {
+                evolutionManager.EnemyKilled(1);
+                Destroy(gameObject);
+            }
+        }
+
+        Debug.Log("Hit " + other.transform.name);
     }
+
 
     IEnumerator FlashRed(SpriteRenderer spriteRenderer)
     {

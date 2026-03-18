@@ -63,7 +63,7 @@ public class Enemy2 : MonoBehaviour
     {
         if ((other.tag == "Player" || other.tag == "Laser") && _canDamagePlayer)
         {
-            _health--;
+            _health--; // Reduce health by 1 when hit by Player or Laser
 
             // Flash red effect for the child sprite
             StartCoroutine(FlashRed(_childSpriteRenderer));
@@ -90,8 +90,23 @@ public class Enemy2 : MonoBehaviour
             }
         }
 
-        Debug.Log("Hit" + other.transform.name);
+        // **New Condition: If this collides with "Expl1", reduce _health by 2**
+        if (other.tag == "Expl1")
+        {
+            _health -= 2; // Reduce health by 2
+
+            // Flash red effect for the child sprite
+            StartCoroutine(FlashRed(_childSpriteRenderer));
+
+            if (_health <= 0)
+            {
+                Destroy(gameObject);
+            }
+        }
+
+        Debug.Log("Hit " + other.transform.name);
     }
+
 
     IEnumerator FlashRed(SpriteRenderer spriteRenderer)
     {

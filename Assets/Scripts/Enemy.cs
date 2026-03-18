@@ -5,7 +5,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     private float _eSpeed = 4.0f;
-    private int _eHealth = 3;
+    private int _eHealth = 4;
     private SpriteRenderer _childSpriteRenderer;
 
     private bool _canDamagePlayer = true; // Flag to control player damage cooldown
@@ -60,7 +60,7 @@ public class Enemy : MonoBehaviour
         if (transform.position.x <= -5.6f)
         {
             float randomY = Random.Range(7f, 10f);
-            transform.position = new Vector3(12, randomY, 0);
+            transform.position = new Vector3(23, randomY, 0);
         }
        
 
@@ -70,7 +70,7 @@ public class Enemy : MonoBehaviour
     {
         if ((other.tag == "Player" || other.tag == "Laser") && _canDamagePlayer)
         {
-            _eHealth--;
+            _eHealth--; // Reduce health by 1 when hit by Player or Laser
 
             // Flash red effect for the child sprite
             StartCoroutine(FlashRed(_childSpriteRenderer));
@@ -96,10 +96,49 @@ public class Enemy : MonoBehaviour
             {
                 Destroy(other.gameObject);
             }
+
+            if (other.tag == "2ndaryShot1")
+            {
+                _eHealth--;
+                StartCoroutine(FlashRed(_childSpriteRenderer));
+                Debug.Log("2NDARY HIT ENEMY");
+            }
+
+           
         }
 
-        Debug.Log("Hit" + other.transform.name);
+        // **New Condition: If this collides with "Expl1", reduce _eHealth by 2**
+        if (other.tag == "Expl1")
+        {
+            _eHealth -= 2; // Reduce health by 2
+
+            // Flash red effect for the child sprite
+            StartCoroutine(FlashRed(_childSpriteRenderer));
+
+            if (_eHealth <= 0)
+            {
+                evolutionManager.EnemyKilled(1);
+                Destroy(gameObject);
+            }
+        }
+
+        if (other.tag == "evoShot1")
+        {
+            _eHealth -= 3; // Reduce health by 2
+
+            // Flash red effect for the child sprite
+            StartCoroutine(FlashRed(_childSpriteRenderer));
+
+            if (_eHealth <= 0)
+            {
+                evolutionManager.EnemyKilled(1);
+                Destroy(gameObject);
+            }
+        }
+
+        Debug.Log("Hit " + other.transform.name);
     }
+
 
     IEnumerator FlashRed(SpriteRenderer spriteRenderer)
     {
